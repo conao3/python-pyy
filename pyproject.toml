@@ -9,12 +9,12 @@ pyy = "pyy.__main__:cli.app"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-typer = "^0.27.3"
+typer = "^0.28.0"
 PyYAML = "^6.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^9.2.0"
-filelock = "^4.2.4"
+filelock = "^4.2.9"
 pre-commit = "^4.7.0"
 
 [build-system]
